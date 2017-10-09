@@ -7,5 +7,26 @@ body {
 h1 {
 	margin : 0px;
 	font-size: 80px;
+}
 
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+
+.clock {
+	position: relative;
+	background-image: url(http://www.handwritingforkids.com/handwrite/manuscript/clock/images/big-analog-clock.gif);
+	background-repeat: none;
+	background-position: center;
+	height: 410px;
+	width: 410px;
+}
+
+.hand {
+	position: absolute;
+	top: 13px;
+	left: 13px;
 }
