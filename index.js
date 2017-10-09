@@ -51,3 +51,6 @@ function analogClock() {
 }
 
 analogClock();
+hexClock();
+setInterval(hexClock, 1000);
+
