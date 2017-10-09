@@ -8,16 +8,16 @@ function hexClock() {
 	var minutes = time.getMinutes();
 	var seconds = time.getSeconds();
 
-	if (hours.length < 2) {
-		hours = "0" + hours;
+	if (hours <= 9) {
+		hours = '0' + hours;
 	}
 
-	if (minutes.length < 2) {
-		minutes = "0" + minutes;
+	if (minutes <= 9) {
+		minutes = '0' + minutes;
 	}
 
-	if (seconds.length < 2) {
-		seconds = "0" + seconds;
+	if (seconds <= 9) {
+		seconds = '0' + seconds;
 	}
 
 	var hexColorStr = '#' + hours + minutes + seconds;
